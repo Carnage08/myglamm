@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Barlow", sans-serif;    
+    color:black;
+    }
+    html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #dadada;
+    }
+*::before , *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+ }
+ .cursor
+ {
+     height: 20px;
+     width: 20px;
+     background-color: white;
+     border-radius: 50%;
+     position: fixed;
+     z-index: 9;
+}
+.overlay{
+    background-color: transparent;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index:10;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.change2{
+    white-space: nowrap;
+    display: flex;
+}
+.change21{
+    align-items: center;
+}
+.curv{
+    border-radius: 0.6rem;
+}
+
+.text1{
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    background-blend-mode: multiply,multiply;
+    background-clip: text;
+    color: transparent;
+}
+.card1{
+    border-radius: 1rem;
+    transition: all 0.5s;
+}
+.card1 img{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-position: center;
+}
+.card1-text{
+    z-index: 8;;
+}
+.card1-text h1{
+    line-height: 1;
+}
+.sideshow{
+    padding:0.2rem 0.6rem;
+    opacity: 0;
+    border-radius: 6rem;
+    color: white;
+    rotate: 0deg;
+}
+.sideshow h1{
+    line-height: 1;
+    color: white;
+}
+
+.card1:hover .sideshow{
+    opacity: 1;
+}
+.visit{
+    top: 89%;
+    left: 5%;
+}
+.visit1 .h4{
+    overflow: hidden;
+    border-radius: 13rem;
+    border: 1px solid black;
+    padding: 0.31rem 0.70rem;
+}
+.visit1 .h4::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+    left: 0;
+    bottom: -100%;
+    border-radius: 50%;
+    transition: all ease 0.4s;
+}
+.center-visit1 .h4::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    left: 0;
+    bottom: -100%;
+    border-radius: 50%;
+    transition: all ease 0.4s;
+}
+.visit1 .h4:hover::after{
+    bottom: 0;
+    border-radius: 0;
+}
+.visit1 .h4 a{
+    text-decoration: none;
+    color: #000000bb;
+    position: relative;
+    z-index: 9;
+}
+.visit1 .h4:hover a{
+    color: white;
+}
+.visit1 .h4:hover i{
+    color: white;
+}
+.instag{
+    border-radius: 3rem;
+    background-color: #111;
+    color: white;
+    padding: 0.7vw 1.4vw;
+    rotate: -10deg;
+}
+.parellelscroll{
+    
+    background-image: linear-gradient(180deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+.void{
+    filter: blur(100px);
+}
+.first-p{
+    z-index: 9;
+}
+.first-p div{
+    z-index: 0;
+}
+.d-img{
+    border-radius: 2rem;
+    z-index: 0;
+}
+.h1-t{
+    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+    background-clip: text;
+    color: transparent;
+}
+.page4{
+    background-color:#e2d1c3 
+
+}
+.f-button{
+    border-radius: 4rem;
+}
+.input-i{
+ background: transparent;
+}
+.inp-div{
+    border-bottom: 1px solid #dadada;
+}
+.h1{
+    overflow: hidden;
+}
+.cont{
+    border-bottom: 1px solid #dadada;
+}
